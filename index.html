@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="page container">
+        <header class="header _block">
+            <nav class="header-nav">
+                <ul class="header__menu">
+                    <li class="header__item"><a href="#header">Text</a></li>
+                    <li class="header__item"><a href="#header">Text</a></li>
+                    <li class="header__item"><a href="#header">Text</a></li>
+                </ul>
+            </nav>
+            <div class="header__menu_mob">
+                <span></span>
+            </div>
+            <nav class="header-nav_mob">
+                <ul class="header__list_mob">
+                    <li class="header__item_mob"><a href="">Text</a></li>
+                    <li class="header__item_mob"><a href="">Text</a></li>
+                    <li class="header__item_mob"><a href="">Text</a></li>
+                    <li class="header__item_mob"><a href="">Text</a></li>
+                </ul>
+                <a href="#popup" class="popup__open">Open pop-up button</a>
+
+            </nav>
+        </header>
+        <main>
+            <section class="slider-block _block swiper">
+                <div class="swiper-wrapper">
+                    <div class="slide swiper-slide">
+                        <h1 class="slide__text">H1 text</h1>
+                        <a href="#popup" class="popup__open ">Open pop-up button</a>
+                    </div>
+                </div>
+                <div class="swiper-button-prev">
+                    <svg width="40" height="77" viewBox="0 0 40 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M39.0264 75.5961L1.7475 38.3171L39.0264 1.03821" stroke="white" stroke-width="2" />
+                    </svg>
+
+                </div>
+                <div class="swiper-button-next">
+                    <svg width="40" height="77" viewBox="0 0 40 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.898804 1.03821L38.1777 38.3172L0.898804 75.5961" stroke="white" stroke-width="2" />
+                    </svg>
+
+                </div>
+
+            </section>
+            <section class="grid-block">
+                <h2 class="grid-block__title _centered _block">H2 text</h2>
+                <div class="grid-layout">
+                    <div class="grid__item">
+                        <p class="grid__num"></p>
+                    </div>
+                    <div class="grid__item">
+                        <p class="grid__num"></p>
+                    </div>
+                    <div class="grid__item">
+                        <p class="grid__num"></p>
+                    </div>
+                    <div class="grid__item">
+                        <p class="grid__num"></p>
+                    </div>
+                </div>
+            </section>
+            <section class="columns-block _block">
+                <h2 class="columns-block__title _centered _block">H2 text</h2>
+                <div class="columns-layout">
+                    <div class="columns__item"></div>
+                    <div class="columns__item"></div>
+                    <div class="columns__item"></div>
+                    <div class="columns__item"></div>
+                    <div class="columns__item"></div>
+                </div>
+            </section>
+            <section class="text-block _block _centered">
+                <p class="text-block__text _centered">Text utp</p>
+                <a href="#popup" class="popup__open">Open pop-up button</a>
+            </section>
+        </main>
+        <footer>
+            <nav class="footer-nav">
+                <ul class="footer__menu">
+                    <li class="footer__item">Text</li>
+                    <li class="footer__item">Text</li>
+                    <li class="footer__item">Text</li>
+                    <li class="footer__item">Text</li>
+                </ul>
+            </nav>
+        </footer>
+        <div class="popup" id="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#" class="popup__close">
+                        <svg width="13" height="15" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M2.87109 0.78125L6.28906 6.23047L9.70703 0.78125H11.9043L7.41211 7.82227L12.0117 15H9.79492L6.28906 9.44336L2.7832 15H0.566406L5.16602 7.82227L0.673828 0.78125H2.87109Z"
+                                fill="white" />
+                        </svg>
+
+                    </a>
+                    <h2 class="popup__text">Popup</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>

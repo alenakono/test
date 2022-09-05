@@ -1,0 +1,22 @@
+.columns-block {
+    padding-left: 2.1%;
+    padding-right: 2.1%;
+    border-radius: 30px;
+}
+
+.columns-layout {
+    background-color: #D4FF5A;
+    padding: 2.4%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+.columns__item {
+    cursor: pointer;
+    background: #497957;
+    border: 2px solid #00FF4A;
+    border-radius: 35px;
+    width: 18.5%;
+    padding-bottom: 18%;
+}

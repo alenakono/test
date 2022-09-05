@@ -1,0 +1,19 @@
+footer {
+    padding: 27.5px 220.5px 27.5px 204.5px;
+    background-color: #D87FF7;
+
+    @include media-tablet {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+.footer__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__item {
+    padding-right: 15px;
+}

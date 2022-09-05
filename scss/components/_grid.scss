@@ -1,0 +1,49 @@
+.grid-block {
+    padding-bottom: 45px;
+}
+
+.grid-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    counter-reset: csscounter 0;
+}
+
+.grid__item {
+    position: relative;
+}
+
+.grid__num:before {
+    counter-increment: csscounter 1;
+    content: counter(csscounter);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @include font(5.3rem, 400, 116%);
+}
+
+.grid__item:nth-child(1) {
+    flex: 0 1 33.5%;
+}
+
+.grid__item:nth-child(2) {
+    flex: 0 1 65.5%;
+}
+
+.grid__item:nth-child(3) {
+    flex: 0 1 85%;
+}
+
+.grid__item:nth-child(4) {
+    flex: 0 1 14%;
+}
+
+
+
+.grid__item {
+    background-color: #3ADE4B;
+    min-height: 198px;
+    margin-bottom: 13px;
+
+}

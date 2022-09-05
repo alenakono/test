@@ -1,0 +1,27 @@
+%transition {
+    transition: all 0.5s ease-in-out;
+}
+
+.popup__open {
+    @extend %transition;
+
+    &:hover {
+        box-shadow: 2px 5px 10px #497957;
+    }
+}
+
+.columns__item {
+    @extend %transition;
+
+    &:hover {
+        box-shadow: 2px 5px 10px #497957;
+    }
+}
+
+.header__item {
+    @extend %transition;
+
+    &:hover {
+        border-bottom: 1 px solid $color-white;
+    }
+}
